@@ -232,7 +232,9 @@ body {
         padding: 10px; } }
     .overcover .covwe-inn .img-c {
       padding: 50px; }
-      .overcover .covwe-inn .img-c img {
+     .overcover .covwe-inn .img-c img {
+		  width: 550px;
+		  height: 150px;
         border-radius: 50%;
         background-color: #FFF;
         padding: 1px;
