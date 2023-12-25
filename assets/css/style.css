@@ -231,11 +231,11 @@ body {
       .overcover .covwe-inn {
         padding: 10px; } }
     .overcover .covwe-inn .img-c {
-      padding: 20px; }
+      padding: 50px; }
       .overcover .covwe-inn .img-c img {
         border-radius: 50%;
         background-color: #FFF;
-        padding: 5px;
+        padding: 1px;
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
         margin: auto; }
     .overcover .covwe-inn .tit-det {
