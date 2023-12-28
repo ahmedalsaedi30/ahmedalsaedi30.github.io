@@ -72,55 +72,18 @@
                                   </div>
                            <div class="row exp-row">
 						   <span style="text-align: left; font-size: 18px;color:#00008B;">Abstract</span>
-                               <p>In a few years, the world will be populated by billions of connected Internet
-								of Things (IoT) devices such as smartphones, wearables, automated machines,
-								connected vehicles, etc. These devices are constantly generating, collecting,
-								and processing huge amounts of data from the surrounding users and environments.
-								To take full advantage of the on-device data, traditional machine learning (ML)
-								requires gathering all the data in a centralized location to make inferences 
-								for a common model. However, centralizing data brings prohibitive communication
-								costs, network resource usage, heavy traffic, and privacy concerns. Hence, 
-								distributed machine learning has increasingly attractive to tackle the above 
-								mentioned challenges by pushing the computations to be performed close to 
-								the data sources. As a promising solution, Federated Learning (FL) addresses
-								this problem by allowing collaborative learning with a massive number of users
-								without sharing their local data. However, some challenges are raised 
-								especially when existing FL approaches are applied to real-world systems.
-								Thus, federated learning requires applying robust and optimized methods in
-								building a joint model.
-								<br><br>
-								In this thesis, we will mainly focus on solutions to address some of these
-								challenges, specifically to improve resource efficiency
-								and robustness of Personalized federated learning with heterogeneous and 
-								dynamic data. In the first study, due to the iterative nature of  FL regime,
-								we tackle the communication overhead which becomes a primary challenge in
-								complex models, large-scale applications, and high-frequency updates. 
-								This study proposes a Cluster Analysis-based Federated Learning (CA-FL) model,
-								which carefully reduces communication costs while maintaining an acceptable
-								accuracy level. In the next study, We extend CA-FL model to Wireless Networks
-								(WNs), where an energy-efficient transmission is a challenging issue in 
-								resource-constrained WSNs. We investigate an Energy-aware Multi-Criteria FL
-								(EaMC-FL) model for edge computing. Then, we extend the first study to optimize
-								model aggregation and mitigate the communication costs in new work namely 
-								Federated Learning via Clustering Optimization (FedCO) with clustering 
-								optimization. The thesis continues with a comprehensive literature review
-								of the latest developments in context-aware intelligent systems using sensor
-								technology. In addition, the review also investigates the related challenges,
-								and motivations for adopting AI solutions, along with an analysis of existing
-								research gaps. Furthermore, to cope with statistically heterogeneous data in FL
-								settings, a new study proposes a novel FL model that introduces a 
-								group-personalized FL (GP-FL) solution. The proposed GP-FL algorithm builds 
-								a global ML model for a set of dynamic groups of clients with homogeneous 
-								class probability distributions. Lastly, the final study of this thesis aims 
-								to measure the client contribution, we are motivated by two existing FL models
-								to quantify the contribution of each client to the overall global model 
-								according to its behavior during the training, namely CA-FL and GP-FL,
-								respectively.
-								<br><br>
-								The proposed FL techniques in this thesis are evaluated on
-								various state-of-the-art FL  techniques and real-world datasets. The results
-								of extensive experiments showed the effectiveness and robustness of the 
-								proposed FL techniques.</p>
+                               <p>In a few years, the world will be populated by billions of connected Internet of Things (IoT) devices such as smart devices, wearables, healthcare devices, sensors, connected cars, etc. These devices are constantly generating, collecting, and processing huge amounts of data from the surrounding users and environments. To take full advantage of the on-device data, traditional machine learning (ML) requires gathering all the data in a centralized location to make predictions/ inferences for a common model. However, centralizing data brings prohibitive communication costs, network resource usage, heavy traffic, and privacy concerns. Hence, distributed machine learning has increasingly attractive to tackle the above mentioned challenges by pushing the computations to the data sources. Federated Learning (FL) a distributed machine learning standard addresses this problem by allowing collaborative learning with a massive number of users without sharing their local data. Despite its great potential, FL has been found to suffer from some challenges especially when existing FL approaches are applied to real-world systems, causing the overall performance of the global model to decrease and the contribution of federated participants to the joint model to vary greatly.
+<br><br>
+In this thesis, we will mainly focus on solutions to improve resource efficiency and robustness of Personalized federated learning with heterogeneous and dynamic data. In the first study, due to the iterative nature of  FL regime, we tackle the communication overhead which becomes a primary challenge, especially in complex models, large-scale applications, and high-frequency updates. This study identifies the most representative updates made by workers based on accuracy value to communicate with the central server, which carefully reduces communication costs while maintaining an acceptable accuracy level.
+In the next study, We apply our previous study on Wireless Networks (WNs), where an energy-efficient transmission is a challenging issue in resource-constrained WSNs. We investigate an Energy-aware multi-criteria (e.g. accuracy, energy consumed,  energy budget, etc.) in federated learning settings for edge computing.
+The thesis continues with a comprehensive overview of the recent developments in context-aware intelligent applications that have been applied to sensor technology. This review also investigates the related challenges, and motivations for adopting AI techniques, alongside with an analysis of existing research gaps.
+Then, we extend the first study to optimize model aggregation and mitigate the communication costs in the new study via the clustering optimization method. Particularly, silhouette validation was utilized to ensure that the main workers were close to their current cluster.
+Furthermore, to reduce the detrimental effect of the data heterogeneity problem on federated learning, a new study that introduces a group-personalized FL solution has been proposed. 
+The proposed technique creates a group of clients based on the similarity of class probability distributions, enabling them to jointly train a Group-Personalized model of different clusters. 
+Lastly, In FL, fair measurement of the contribution of each client is considerably significant. Motivated by two previous FL models, the final study of this thesis aims to measure the client's contribution by quantifying the contribution based on its behavior during the training without consuming large computing resources.
+<br><br>
+The proposed FL techniques in this thesis are evaluated on various state-of-the-art FL  techniques and real-world datasets. The results of extensive experiments showed the effectiveness and robustness of the proposed FL techniques. </p>
+                           
                            </div>
                        </div>
               </div>
