@@ -54,8 +54,9 @@
 							<a href="https://www.bth.se/">Blekinge Institute of Technology</a>, Sweden working under the supervision of
 							<a href="https://www.bth.se/staff/veselka-boeva-vbx/">Prof. Veselka Boeva</a> and
 							<a href="https://www.bth.se/staff/emiliano-casalicchio-emc/">Dr. Emiliano Casalicchio</a>. 
-							During his PhD study, he worked under the Sony project, as well as he contributed to
-							the research produced under HINTS project.
+							During his PhD study, he worked under Sony RAP 2020 Project “Distributed and Adaptive Edge-based AI Models for Sensor Networks”., as well as he contributed to
+							the research produced under 
+							<a href="https://a.bth.se/hints/">“Human-Centered Intelligent Realities” (HINTS) project</a>.
 							His PhD study is supported by an Iraq Ministry of Higher Education and Scientific Research PhD Scholarship. 
 							Ahmed received his Bachelor's degree in Computer Science from 
 							<a href="https://uomustansiriyah.edu.iq/e-newsite.php">Al-Mustansiriyah University,</a> Iraq, and Master’s degree
@@ -75,35 +76,52 @@
                            <div class="row exp-row">
 						   <span style="text-align: left; font-size: 18px;color:#00008B;">Abstract</span>
                                <p>
-							   The proliferation of connected edge devices (e.g., smartphones, wearables, IoT
-							   devices, connected cars, etc) contributes an abundance of huge amounts of data
-							   which become a valuable resource for improving the performance of Machine 
-							   Learning (ML) models, boosting the development of modern intelligent 
-							   applications.
+							    The proliferation of connected edge devices (e.g., smartphones, medical
+								wearables, IoT devices, vehicles, etc.) contributes an abundance of huge
+								amounts of data, which become a valuable resource for improving the performance
+								of Machine Learning (ML) models. To take full advantage of the on-device data,
+								traditional ML requires gathering all separate datasets to a centralized 
+								location for training model. However, centralizing data brings prohibitive
+								communication costs, network resource usage, heavy traffic, and privacy 
+								concerns. To address the aforementioned challenges, Federated Learning (FL),
+								which is an emerging approach, is used to train a joint model across 
+								distributed edge devices while maintaining privacy. Despite its immense
+								potential, FL still requires plenty of significant resources, such as time,
+								computation power, energy, bandwidth availability, etc. More importantly,
+								the computing capabilities available on training devices may vary over time.
+								Furthermore, the devices involved in FL training may have varying training
+								data sets that differ in size and distribution. This can result in unstable
+								and slow convergence of the FL models. These differences can have an impact
+								on the FL process and ultimately lead to suboptimal model performance in 
+								a heterogeneous federated network.
 							   <br><br>
-							   To reduce the privacy risks of moving training data to traditional centralized
-							   locations, Federated Learning (FL) emerged as a privacy-aware ML paradigm for
-							   learning on the edge, which collaboratively builds a shared model among 
-							   distributed edge devices without transmitting their local data. 
-							   However, training ML models in FL settings might require significant resources such as time, computation power,
-							   energy, bandwidth, etc. However, it is not feasible to expect that all devices involved in FL training 
-							   can constantly handle all types of training computations. More importantly, the available resources on
-							   a training device may vary over time.
+							    In this thesis, we have addressed several of the challenges mentioned above. 
+								Initially, an FL algorithm that utilizes cluster analysis to address 
+								communication overhead is proposed, which is a major bottleneck for FL, 
+								particularly for complex models, large-scale applications, and frequent 
+								updates. The subsequent step involved an extension of the aforementioned study
+								to encompass wireless networks (WNs), where an energy-efficient transmission
+								poses a significant challenge due to the limited resources of WSNs. This has
+								motivated us to continue with a comprehensive overview and classification of
+								the advanced developments in context-aware edge-based AI models, focusing on
+								sensor networks. The review also investigated the related challenges and 
+								motivations for adopting AI techniques, along with an analysis of existing
+								research gaps. To optimize the aggregation of the FL model and alleviate
+								communication costs, the first study is extended with an FL-based cluster
+								optimization approach. Furthermore, to reduce the detrimental effect of the
+								diverse distribution of data between edge devices, i.e., data heterogeneity
+								on FL, a new study of group-personalized FL models is presented. Finally,
+								inspired by the aforementioned FL models,  evaluation methods for a 
+								client's contribution by measuring its behavior during training are 
+								proposed, without requiring excessive computational resources.
 							   <br><br>
-							   Thus, to optimize ML models in a heterogeneous federated network while
-							   maintaining user data privacy, it is necessary to consider factors such
-							   as available resources, data heterogeneity, behaviors, and contributions
-							   of clients toward improving the performance of traditional FL models.
-							   <br><br>
-							   In our initial study, an FL algorithm was proposed utilizing clustering analysis to address the communication overhead, which is a significant limitation in FL, particularly for complex models, large-scale applications, and frequent updates.
-							   In the next step, the study mentioned above was extended to wireless networks (WNs), where energy-efficient transmission is a challenging issue in resource-constrained WSNs. Then, optimization of model aggregation and communication cost mitigation via clustering optimization was proposed.
-							   Furthermore, to reduce the detrimental effect of the diverse distribution of data between user devices, i.e. data heterogeneity on FL, a new study of group-personalized FL models is also proposed.
-							   This thesis proceeds with the evaluation of the client's contribution. Inspired by the aforementioned FL models, this research evaluated the client's contribution by measuring its behavior during training without requiring excessive computational resources.
-							   Finally, a comprehensive overview and classification of the advanced developments in context-aware intelligent applications was provided, focusing on sensor networks. The review also investigated the related challenges and motivations for adopting AI techniques, along with an analysis of existing research gaps.
-							   <br><br>
-							   With the proposed FL algorithms, different state-of-the-art approaches from the performance perspective were compared through extensive experiments and analyses.
-							   The FL algorithms proposed in this thesis are also evaluated on various real-world datasets. This comprehensive evaluation allows us to analyze both the training model and FL performance.
-							   The results of extensive experiments showed the effectiveness and robustness of the proposed FL techniques in terms of improved model convergence, personalization performance, efficient aggregation, resource efficiency, and increased communication efficiency.
+							    The FL algorithms proposed in this thesis are evaluated on various real-world 
+								datasets. This comprehensive evaluation allows us to analyze both the training
+								model and FL performance. The results of extensive experiments showed the
+								effectiveness and robustness of the proposed FL techniques in for improved
+								communication efficiency, resource efficiency, accelerating model convergence,
+								efficient aggregation, and reduced data heterogeneity compared with different
+								state-of-the-art approaches.
 							   <br><br>
 							   <strong>(link to the dissertation will be provided later)</strong>
 							   							   
@@ -128,7 +146,7 @@
 								  <br>
 								  <li style="text-align: left; font-size: 16px;">5- <u>A. A. Al-Saedi</u> and V. Boeva. "Group-Personalized Federated Learning for Human Activity Recognition Through Cluster Eccentricity Analysis". In: Engineering Applications of Neural Networks. Ed. by L. Iliadis, I. Maglogiannis, S. Alonso, C. Jayne and E. Pimenidis. Cham: Springer International Publishing, 2023, pp 522- 536. ISBN: 978-3-031-34204-2. DOI:DOI: <a href="https://doi.org/10.1007/978-3-031-34204-2_41">10.1007/978-3-031-34204-2_41</a></li>
 							      <br>
-								  <li style="text-align: left; font-size: 16px;">6- <u>A. A. Al-Saedi</u>, V. Boeva and E. Casalicchio. "Contribution Prediction in Federated Learning via Client Behavior Evaluation".<strong> (Submitted for journal publication)</strong></li>
+								  <li style="text-align: left; font-size: 16px;">6- <u>A. A. Al-Saedi</u>, V. Boeva and E. Casalicchio. "Contribution Prediction in Federated Learning via Client Behavior Evaluation".<strong> (Submitted for Special Issue: Edge-Cloud Solutions for Big Data Analysis and Distributed Machine Learning, Future Generation Computer Systems)</strong></li>
 							    <br>
 								<span style="font-size: 18px;color:#00008B;">Studies related to the thesis but not included</span>
 								<br><br>
